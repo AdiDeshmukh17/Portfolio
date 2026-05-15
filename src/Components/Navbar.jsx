@@ -47,9 +47,16 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
 
         {/* Logo */}
-        <span className="text-lg font-semibold bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
-          Adiya Deshmukh
+      <div className="flex items-center gap-2.5">
+        <img
+          src="./src/Components/LinkedIn.png"
+          alt="Aditya Deshmukh"
+          className="w-8 h-8 rounded-full object-cover border border-cyan-400/40"
+        />
+        <span className=""text-lg font-semibold text-white>
+          Aditya Deshmukh
         </span>
+      </div>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-1 list-none">
