@@ -49,7 +49,7 @@ function Navbar() {
         {/* Logo */}
       <div className="flex items-center gap-2.5">
         <img
-          src="./src/Components/LinkedIn.png"
+          src="/LinkedIn.png"
           alt="Aditya Deshmukh"
           className="w-8 h-8 rounded-full object-cover border border-cyan-400/40"
         />
