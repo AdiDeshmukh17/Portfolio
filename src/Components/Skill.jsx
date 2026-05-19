@@ -58,10 +58,8 @@ const skills = [
   {
     category: 'Databases',
     items: [
-      { name: 'PostgreSQL', icon: <SiPostgresql className="text-blue-400" /> },
       { name: 'MySQL', icon: <SiMysql className="text-blue-500" /> },
       { name: 'MongoDB', icon: <SiMongodb className="text-green-500" /> },
-      { name: 'Redis', icon: <SiRedis className="text-red-500" /> },
       { name: 'Oracle', icon: <SiOracle className="text-red-600" /> },
       { name: 'SQLite', icon: <FaDatabase className="text-gray-400" /> },
       { name: 'BigQuery / DWH', icon: <FaCloud className="text-blue-300" /> },
@@ -74,7 +72,6 @@ const skills = [
     items: [
       { name: 'TensorFlow', icon: <SiTensorflow className="text-orange-400" /> },
       { name: 'PyTorch', icon: <SiPytorch className="text-red-400" /> },
-      { name: 'Keras', icon: <SiKeras className="text-red-300" /> },
       { name: 'Hugging Face', icon: <SiHuggingface className="text-yellow-300" /> },
       { name: 'Scikit-learn', icon: <SiScikitlearn className="text-blue-300" /> },
       { name: 'LLMs / Prompt Engineering', icon: <FaCode className="text-purple-300" /> },
