@@ -48,15 +48,15 @@ function Navbar() {
 
         {/* Logo */}
       <div className="flex items-center gap-2.5">
-        <img
-          src="./LinkedIn.png" 
-          alt="Aditya Deshmukh"
-          className="w-8 h-8 rounded-full object-cover border border-cyan-400/40"
-        />
-        <span className=""text-lg font-semibold text-white>
-          Aditya Deshmukh
-        </span>
-      </div>
+  <img
+    src="/LinkedIn.png"
+    alt="Aditya Deshmukh"
+    className="w-8 h-8 rounded-full object-cover border border-cyan-400/40"
+  />
+  <span className="text-lg font-semibold text-white">
+    Aditya Deshmukh
+  </span>
+</div>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-1 list-none">
