@@ -48,10 +48,13 @@ function Navbar() {
 
         {/* Logo */}
       <div className="flex items-center gap-2.5">
-  <span className="text-lg font-semibold text-white">
-    Aditya Deshmukh
-  </span>
-</div>
+        <div className="w-8 h-8 rounded-full bg-cyan-500/20 border border-cyan-400/40 flex items-center justify-center text-cyan-400 font-bold text-sm">
+          AD
+        </div>
+        <span className="text-lg font-semibold text-white">
+          Aditya Deshmukh
+        </span>
+      </div>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-1 list-none">
